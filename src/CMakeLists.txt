@@ -1,6 +1,11 @@
 
 set(PUSH2TALK_NAME push2t)
-set(PUSH2TALK_SRC main.cpp)
+
+set(PUSH2TALK_SRC
+    main.cpp
+    capturer.cpp
+    )
+
 set(PUSH2TALK_DEPS librtaudio)
 set(PUSH2TALK_LIBS rtaudio)
 
