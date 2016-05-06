@@ -1,7 +1,7 @@
 # add librtaudio as a dependency
-include(externalproject)
+include(ExternalProject)
 
-externalproject_add(librtaudio
+ExternalProject_Add(librtaudio
         PREFIX ${ROOT_DIR}/deps/rtaudio
         SOURCE_DIR ${ROOT_DIR}/deps/rtaudio
         INSTALL_DIR ${ROOT_DIR}/deps/out/
